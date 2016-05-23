@@ -1,9 +1,12 @@
 #!/bin/sh
 
+mkdir -p dist
+
 # Gather files from other projects
 for proj in tribute random-quote calculator pomodoro tic-tac-toe
 do
-    cp -pR ../$proj/dist dist/$proj
+    mkdir -p dist/$proj
+    cp -pR ../$proj/dist/* dist/$proj
 done
 
 # Create files in our dist/ directory
