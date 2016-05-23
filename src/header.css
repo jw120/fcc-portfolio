@@ -1,0 +1,65 @@
+/*
+ *
+ * Page header
+ *
+ */
+
+
+/* Top of page is a centred image */
+header .logo-row {
+    display: flex;
+    justify-content: space-around;
+}
+header .logo-row > img {
+    height: 140px;
+
+}
+
+/* Page title is just centred text */
+header .title-row {
+    width: 100%;
+    padding: 10px;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Navigation bar is a flex box containing centred text divs */
+header .nav-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+header .nav-item {
+    flex: 1;
+    font-size: 14pt;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Selected section is highlighted with biold text and an underline */
+header .nav-selected {
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+
+}
+
+
+/* On a mobile device, we lose our logo and title and pin the nav bar to the top of the page */
+@media (max-width: 600px) {
+  header .logo-row {
+    display: none;
+  }
+  header .title-row {
+      display: none;
+  }
+  header .nav-row {
+      position: fixed;
+  }
+}
