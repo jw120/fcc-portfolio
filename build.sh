@@ -10,7 +10,7 @@ do
 done
 
 # Create files in our dist/ directory
-cat src/body.css src/header.css src/grid.css src/blog.css src/footer.css >dist/styles.css
+cat src/body.css src/header.css src/grid.css src/blog.css src/contact.css src/footer.css >dist/styles.css
 cp src/portfolio.js dist/
 cp clip-image/dice-white.jpg dist/
 cp project-info/*.png dist/

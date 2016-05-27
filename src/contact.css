@@ -1,6 +1,6 @@
 /* On a mobile device, we add some padding at the top to accomodate the fixed header */
 @media (max-width: 600px) {
-    #section-blog {
+    #section-contact {
         padding-top: 30px;
     }
 }

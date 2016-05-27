@@ -1,9 +1,5 @@
+Simple portfolio page showing my FreeCodeCamp projects
 
+Reponsive design using flexbox
 
-
-## TODO
-
-* Unify hierarchy
-* Automate copying to jw120.github.io
-* Thumbnails?
-* Aria
+Hosted at https://jw120.github.io

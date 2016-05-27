@@ -61,5 +61,7 @@ header .nav-selected {
   }
   header .nav-row {
       position: fixed;
+      top: 0px;
+      left: 0px;
   }
 }
