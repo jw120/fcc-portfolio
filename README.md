@@ -2,4 +2,4 @@ Simple portfolio page showing my FreeCodeCamp projects
 
 Reponsive design using flexbox
 
-Hosted at https://jw120.github.io
+Hosted at [jw120.github.io](https://jw120.github.io)
