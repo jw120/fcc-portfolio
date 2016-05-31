@@ -3,7 +3,7 @@
 mkdir -p dist
 
 # Gather files from other projects
-for proj in tribute random-quote calculator pomodoro tic-tac-toe
+for proj in tribute random-quote calculator pomodoro tic-tac-toe wikipedia
 do
     mkdir -p dist/$proj
     cp -pR ../$proj/dist/* dist/$proj

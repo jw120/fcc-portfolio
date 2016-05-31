@@ -1,0 +1,8 @@
+// Objectives - TypeScript instead of Ugly JS, Fetch instead of ugly XMLHttpRequest
+// Notes - Wikipedia API does not support CORS, so need to use JSONP
+// Comment that JSONP is an awful hack
+// Challenges - COR
+// No polyfll for promises
+
+
+// TODO - Add non-FCC projects to portfolio?
