@@ -1,0 +1,2 @@
+Use buble to try it out and to provide simple transpilation of let/const and arrow functions (whcih Safari does not support). Using TS's ES5 output mode
+does not define Promise and Map. Rely on our browser to have Map and Promise (which iOS and Chrome do).
