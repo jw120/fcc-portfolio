@@ -2,8 +2,8 @@
 
 mkdir -p dist
 
-# Gather files from other projects
-for proj in tribute random-quote calculator pomodoro tic-tac-toe wikipedia twitch
+# Gather files from other front-end projects
+for proj in tribute random-quote calculator pomodoro tic-tac-toe wikipedia twitch simon
 do
     mkdir -p dist/$proj
     cp -pR ../$proj/dist/* dist/$proj
@@ -19,6 +19,12 @@ do
     cp -pR ../$proj/dist/*.png dist/$proj
 done
 
+# Data viz projects
+for proj in bar-chart
+do
+    mkdir -p dist/$proj
+    cp -pR ../../data-viz/$proj/dist/* dist/$proj
+done
 
 # Create files in our dist/ directory
 cat src/body.css src/header.css src/grid.css src/blog.css src/contact.css src/footer.css >dist/styles.css
