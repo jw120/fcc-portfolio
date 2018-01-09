@@ -10,12 +10,11 @@ do
 done
 
 # Gather files from create-react-app projects
-for proj in data-viz/markdown-previewer
+for proj in data-viz/markdown-previewer data-viz/camper-leaderboard data-viz/recipe-box
 do
     mkdir -p dist/${proj##*/}
     cp -pR ../../$proj/build/* dist/${proj##*/}
 done
-
 
 # For weather we use the placeholder files only
 for proj in weather
